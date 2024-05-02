@@ -10,7 +10,7 @@ $data  = mysqli_fetch_array($query);
 $sql   = "DELETE FROM mou_persediaan WHERE idbarang='$idbarang' ";
 $query = mysqli_query($con,$sql);
 
-$url   = "index.html?menu=persediaan";
+$url   = "index.php?menu=persediaan";
 $pesan = "Data berhasil dihapus";
 
 echo "<script>alert('$pesan'); location='$url'; </script>";

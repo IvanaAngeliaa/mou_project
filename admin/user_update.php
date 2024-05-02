@@ -41,7 +41,7 @@ $sql   = "UPDATE mou_user SET username='$username',
                             WHERE id='$id'";
 $query = mysqli_query($con,$sql);
 
-$url   = "index.html?menu=user";
+$url   = "index.php?menu=user";
 $pesan = "User berhasil diubah";
 
 echo "<script>alert('$pesan'); location='$url'; </script>";

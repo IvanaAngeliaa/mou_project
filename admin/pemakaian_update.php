@@ -13,7 +13,7 @@ $sql   = "UPDATE mou_pemakaian SET stock='$stock',
                                 status='$status'
 								WHERE idpakai='$idpakai' AND id='$id'";
 $query = mysqli_query($con,$sql);
-$url   = "index.html?menu=persediaan";
+$url   = "index.php?menu=persediaan";
 $pesan = "Data berhasil diubah";
 
 echo "<script>alert('$pesan'); location='$url'; </script>";

@@ -18,7 +18,7 @@
                             while($row=mysqli_fetch_array($query))
                             {
                                 $link_hapus= "produk_delete.php?id=$row[idproduk]";
-                                $link_edit = "index.html?menu=produk&aksi=edit&id=$row[idproduk]";
+                                $link_edit = "index.php?menu=produk&aksi=edit&id=$row[idproduk]";
                                 
                                 $foto = "default.jpg";
                                 if(!empty($row['foto'])) { $foto = $row['foto']; }

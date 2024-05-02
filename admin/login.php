@@ -24,7 +24,7 @@
                             </tr>
                         </table>
                 </form>
-                <a href="../index.html"><input type="submit" value="Back to Website" class="button" style="cursor:pointer";></a>
+                <a href="../index.php"><input type="submit" value="Back to Website" class="button" style="cursor:pointer";></a>
             </div>
         </body>
 </html>

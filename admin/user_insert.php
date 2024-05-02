@@ -31,7 +31,7 @@ $sql   = "INSERT INTO mou_user
             ('$username','$fullname','$password','$profil')";
 $query = mysqli_query($con,$sql);
 
-$url   = "index.html?menu=user";
+$url   = "index.php?menu=user";
 $pesan = "User berhasil disimpan";
 
 echo "<script>alert('$pesan'); location='$url'; </script>";

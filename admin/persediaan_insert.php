@@ -18,7 +18,7 @@ $sql   = "INSERT INTO mou_persediaan
 $query = mysqli_query($con,$sql);
 
 
-$url   = "index.html?menu=persediaan";
+$url   = "index.php?menu=persediaan";
 $pesan = "Data berhasil disimpan";
 
 echo "<script>alert('$pesan'); location='$url'; </script>";

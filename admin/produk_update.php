@@ -40,7 +40,7 @@ if($foto_cek != "")
 
 
 
-$url   = "index.html?menu=produk";
+$url   = "index.php?menu=produk";
 $pesan = "Data berhasil diubah";
 
 echo "<script>alert('$pesan'); location='$url'; </script>";

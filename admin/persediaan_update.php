@@ -15,7 +15,7 @@ $sql   = "UPDATE mou_persediaan SET kategori='$kategori',
 $query = mysqli_query($con,$sql);
 
 
-$url   = "index.html?menu=persediaan";
+$url   = "index.php?menu=persediaan";
 $pesan = "Data berhasil diubah";
 
 echo "<script>alert('$pesan'); location='$url'; </script>";

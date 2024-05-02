@@ -25,11 +25,11 @@ include "admin/connection.php";
                 </div>
 
                 <ul class="navigasi">
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.php">Home</a></li>
                     <li><a href="#product">Product</a></li>
                     <li><a href="#info">Information</a></li>
                     <li><a href="#testi1">Testimonials</a></li>
-                    <li><a href="./admin/index.html"><i class="fas fa-user"></i></a></li>
+                    <li><a href="./admin/index.php"><i class="fas fa-user"></i></a></li>
                 </ul>
 
                 <div class="icon">
@@ -70,7 +70,7 @@ include "admin/connection.php";
             while($row=mysqli_fetch_array($query))
             {
                 //$link_hapus= "produk_delete.php?id=$row[idproduk]";
-                //$link_edit = "index.html?menu=produk&aksi=edit&id=$row[idproduk]";
+                //$link_edit = "index.php?menu=produk&aksi=edit&id=$row[idproduk]";
                 
                 $foto = "default.jpg";
                 if(!empty($row['foto'])) { $foto = $row['foto']; }

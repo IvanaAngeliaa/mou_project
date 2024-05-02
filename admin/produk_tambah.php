@@ -38,7 +38,7 @@
                             <button type="submit" class="btn btn-primary">
                                 <i class="fas fa-save"></i> Simpan
                             </button>
-                            <a href="index.html?menu=produk" class="btn btn-warning">
+                            <a href="index.php?menu=produk" class="btn btn-warning">
                                 <i class="fas fa-arrow-left"></i> Kembali
                             </a>
                         </div>

@@ -13,7 +13,7 @@ if(!empty($data['foto'])) {
 $sql   = "DELETE FROM mou_produk WHERE idproduk='$idproduk' ";
 $query = mysqli_query($con,$sql);
 
-$url   = "index.html?menu=produk";
+$url   = "index.php?menu=produk";
 $pesan = "Data berhasil dihapus";
 
 echo "<script>alert('$pesan'); location='$url'; </script>";
