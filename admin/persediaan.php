@@ -86,11 +86,11 @@ else {
                             </h6>
 
                         <div class="card-body">
-                            <a href="index.php?menu=persediaan&aksi=tambah" class="btn btn-custom">
+                            <a href="index.html?menu=persediaan&aksi=tambah" class="btn btn-custom">
                                 <i class="fas fa-plus"></i> Tambah
                             </a>
 
-                            <a href="index.php?menu=persediaan&aksi=pakai" class="btn btn-custom">
+                            <a href="index.html?menu=persediaan&aksi=pakai" class="btn btn-custom">
                                 <i class="fas fa-edit"></i> Pemakaian
                             </a>
 
@@ -116,7 +116,7 @@ else {
                                         while($row=mysqli_fetch_array($query))
                                         {
                                             $link_hapus= "persediaan_delete.php?id=$row[id]";
-                                            $link_edit = "index.php?menu=persediaan&aksi=ubah&id=$row[id]&idpakai=$row[idpakai]";
+                                            $link_edit = "index.html?menu=persediaan&aksi=ubah&id=$row[id]&idpakai=$row[idpakai]";
 
                                             $kadaluarsa = $row['kadaluarsa'];
                                             if($kadaluarsa == '0000-00-00' || $kadaluarsa == ''){

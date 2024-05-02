@@ -24,7 +24,7 @@ if($num == 0){
         $_SESSION['fname']= $result['fullname'];
     ?>
         <script>
-        location.href = "index.php";
+        location.href = "index.html";
         </script>
     <?php
     }

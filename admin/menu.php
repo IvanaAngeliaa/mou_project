@@ -14,13 +14,13 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
-                <a class="nav-link" href="index.php">
+                <a class="nav-link" href="index.html">
                     <i class="fas fa-fw fa-home"></i>
                     <span>Dashboard</span></a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="../index.php">
+                <a class="nav-link" href="../index.html">
                     <i class="fas fa-globe"></i>
                     <span><b>Website Mou </b></span></a>
             </li>
@@ -34,19 +34,19 @@
             </div>
 
             <li class="nav-item">
-                <a class="nav-link" href="index.php?menu=user">
+                <a class="nav-link" href="index.html?menu=user">
                     <i class="fas fa-users"></i>
                     <span><b>User</b></span></a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="index.php?menu=produk">
+                <a class="nav-link" href="index.html?menu=produk">
                     <i class="fas fa-box"></i>
                     <span><b>Produk</b></span></a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="index.php?menu=persediaan">
+                <a class="nav-link" href="index.html?menu=persediaan">
                     <i class="fas fa-box-open"></i>
                     <span><b>Persediaan</b></span></a>
             </li>

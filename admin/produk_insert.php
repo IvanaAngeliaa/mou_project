@@ -25,7 +25,7 @@ $sql   = "INSERT INTO mou_produk
 		    ('$namaproduk','$harga','$deskripsi','$foto')";
 $query = mysqli_query($con,$sql);
 
-$url   = "index.php?menu=produk";
+$url   = "index.html?menu=produk";
 $pesan = "Data berhasil disimpan";
 
 echo "<script>alert('$pesan'); location='$url'; </script>";

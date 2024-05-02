@@ -17,7 +17,7 @@ else {
                             </h6>
                         </div>
                         <div class="card-body">
-                            <a href="index.php?menu=user&aksi=tambah" class="btn btn-custom" >
+                            <a href="index.html?menu=user&aksi=tambah" class="btn btn-custom" >
                                 <i class="fas fa-plus"></i> Tambah
                             </a>
 
@@ -43,7 +43,7 @@ else {
                                         while($row=mysqli_fetch_array($query))
                                         {
                                             $link_hapus= "user_delete.php?id=$row[id]";
-                                            $link_edit = "index.php?menu=user&aksi=edit&id=$row[id]";
+                                            $link_edit = "index.html?menu=user&aksi=edit&id=$row[id]";
                                             
                                             $foto = "default.jpg";
                                             if(!empty($row['foto'])) { $foto = $row['foto']; }
